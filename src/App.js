@@ -5,8 +5,6 @@ import NewTask from "./components/NewTask/NewTask";
 import useRequest from "./hooks/request-handler";
 
 function App() {
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [error, setError] = useState(null);
   const [tasks, setTasks] = useState([]);
 
   const {
